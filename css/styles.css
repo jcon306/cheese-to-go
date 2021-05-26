@@ -1,0 +1,58 @@
+.jumbotron {
+    margin: 0;
+    padding: 10px;
+    background-color: white; 
+}
+
+h1 {
+    padding-top: 50px;
+    color: red;
+    text-align: left;
+    font-size: 85px;
+    font-family: Lucida Handwriting, cursive, fantasy, sans-serif;
+}
+
+#navbar {
+    background-color: green; 
+    position: left;
+    width: 600px;
+    justify-content: space-evenly;
+}
+#navbar ul{
+    list-style: none;
+    margin: 0 2px;
+    padding: 50;
+  }
+
+  
+#navbar li {
+    display: inline-block;
+    padding: 5px 5px;
+ }
+
+ .row-content {
+    padding-left: 30px;
+    padding-top: 20px;
+    border-bottom: 1px thick;
+    width: 300px;
+    height: 300px;    
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5); 
+}
+  
+.carousel {
+    margin: auto;
+    width: 800px;
+    height: 400px;
+}
+  
+#carouselButton {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 100; 
+}
+
+

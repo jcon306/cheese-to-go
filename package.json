@@ -15,5 +15,15 @@
   "bugs": {
     "url": "https://github.com/jcon306/cheese-to-go/issues"
   },
-  "homepage": "https://github.com/jcon306/cheese-to-go#readme"
+  "homepage": "https://github.com/jcon306/cheese-to-go#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  },
+  "dependencies": {
+    "bootstrap": "^4.6.0",
+    "bootstrap-social": "^5.1.1",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.6.0",
+    "popper": "^1.0.1"
+  }
 }
