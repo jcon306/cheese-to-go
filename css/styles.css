@@ -1,19 +1,21 @@
 .jumbotron {
     margin: 0;
     padding: 10px;
-    background-color: white; 
+    background-color: light-grey;
+    border: solid; 
+    
 }
 
 h1 {
-    padding-top: 50px;
+    padding-top: 10px;
     color: red;
+    position: relative;
     text-align: left;
-    font-size: 85px;
+    font-size: 80px;
     font-family: Lucida Handwriting, cursive, fantasy, sans-serif;
 }
 
 #navbar {
-    background-color: green; 
     position: left;
     width: 600px;
     justify-content: space-evenly;
@@ -31,11 +33,12 @@ h1 {
  }
 
  .row-content {
-    padding-left: 30px;
-    padding-top: 20px;
+    padding-top: 30px;
+    padding-bottom: 30p;
+    float: center;
     border-bottom: 1px thick;
-    width: 300px;
-    height: 300px;    
+    width: 700px;
+    height: 500px;    
 }
 
 .carousel-caption {
@@ -43,9 +46,10 @@ h1 {
 }
   
 .carousel {
+    float: middle;
     margin: auto;
-    width: 800px;
-    height: 400px;
+    width: 500px;
+    height: 375px;
 }
   
 #carouselButton {
@@ -55,4 +59,9 @@ h1 {
     z-index: 100; 
 }
 
+.site-footer {
+    background-image: linear-gradient(black, white);
+    padding: 0px;
+    justify-content: space-between;
+}
 
