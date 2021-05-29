@@ -3,14 +3,16 @@
     padding: 10px;
     background-color: light-grey;
     border: solid; 
+    align-content: center;
     
+}
+#logo {
+    position: left;
 }
 
 h1 {
     padding-top: 10px;
     color: red;
-    position: relative;
-    text-align: left;
     font-size: 80px;
     font-family: Lucida Handwriting, cursive, fantasy, sans-serif;
 }
@@ -46,7 +48,7 @@ h1 {
 }
   
 .carousel {
-    float: middle;
+    float: center;
     margin: auto;
     width: 500px;
     height: 375px;
@@ -65,3 +67,8 @@ h1 {
     justify-content: space-between;
 }
 
+h2, p{
+    justify-content: center;
+    float: center;
+    text-align: center;
+}
